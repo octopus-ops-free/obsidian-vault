@@ -1,0 +1,116 @@
+# Subagent Registry — MCP 工具注册配置
+# 主 agent 启动时扫描此文件，将 enabled 的 subagent 注册为可用 MCP 工具
+
+subagents:
+
+  # ============================================
+  # 程序员组 (dev)
+  # ============================================
+
+  dev:frontend-react:
+    tool_name: call_subagent_dev_frontend_react
+    description: "调用前端 React 工程师，处理组件开发、UI 实现、样式调整、性能优化"
+    enabled: true
+    skills: [frontend, superpowers, ui-ux]
+    knowledge: [dev/knowledge/react-best-practices.md]
+    prompts: dev/prompts/frontend-react.md
+    model_hint: default
+    conversation_mode: multi_turn
+
+  dev:backend-python:
+    tool_name: call_subagent_dev_backend_python
+    description: "调用后端 Python 工程师，处理 API 开发、数据库设计、服务逻辑、异步编程"
+    enabled: true
+    skills: [superpowers, context7-docs]
+    knowledge: [dev/knowledge/python-style-guide.md]
+    prompts: dev/prompts/backend-python.md
+    model_hint: default
+    conversation_mode: multi_turn
+
+  dev:code-reviewer:
+    tool_name: call_subagent_dev_code_reviewer
+    description: "调用代码审查员，检查代码质量、规范遵循、安全隐患、性能问题"
+    enabled: true
+    skills: [superpowers, humanizer]
+    knowledge: []
+    prompts: dev/prompts/code-reviewer.md
+    model_hint: default
+    conversation_mode: multi_turn
+
+  # ============================================
+  # 视频组 (video)
+  # ============================================
+
+  video:screenwriter:
+    tool_name: call_subagent_video_screenwriter
+    description: "调用编剧，创作剧本、对白设计、剧情结构、三幕剧框架"
+    enabled: true
+    skills: [gpt-image-2-chatgpt, nano-banana-pro]
+    knowledge: [video/knowledge/awesome-gpt-image-2-templates.md]
+    prompts: video/prompts/screenwriter.md
+    model_hint: default
+    conversation_mode: multi_turn
+
+  video:character-designer:
+    tool_name: call_subagent_video_character_designer
+    description: "调用角色设计师，设计人物外观、服装系统、表情参考、一致性控制"
+    enabled: true
+    skills: [gpt-image-2-chatgpt, nano-banana-pro]
+    knowledge: [video/knowledge/character-design-guide.md]
+    prompts: video/prompts/character-designer.md
+    model_hint: default
+    conversation_mode: multi_turn
+
+  video:storyboarder:
+    tool_name: call_subagent_video_storyboarder
+    description: "调用分镜师，将剧本转化为视觉分镜、镜头语言、转场设计"
+    enabled: true
+    skills: [gpt-image-2-chatgpt, nano-banana-pro]
+    knowledge: [video/knowledge/storyboard-techniques.md]
+    prompts: video/prompts/storyboarder.md
+    model_hint: default
+    conversation_mode: multi_turn
+
+  video:generator:
+    tool_name: call_subagent_video_generator
+    description: "调用视频生成器，将分镜提示词和角色参考转为最终视频"
+    enabled: true
+    skills: [video_generate, gpt-image-2-chatgpt]
+    knowledge: []
+    prompts: video/prompts/generator.md
+    model_hint: default
+    conversation_mode: multi_turn
+
+  # ============================================
+  # 运营组 (ops)
+  # ============================================
+
+  ops:sre:
+    tool_name: call_subagent_ops_sre
+    description: "调用 SRE 架构师，处理系统架构设计、可靠性工程、容量规划、故障复盘"
+    enabled: true
+    skills: [agent-team-orchestration, healthcheck]
+    knowledge: [ops/knowledge/sre-playbook.md]
+    prompts: ops/prompts/sre.md
+    model_hint: default
+    conversation_mode: multi_turn
+
+  ops:devops:
+    tool_name: call_subagent_ops_devops
+    description: "调用 DevOps 工程师，处理 CI/CD、自动化部署、基础设施即代码、容器编排"
+    enabled: true
+    skills: [healthcheck, taskflow]
+    knowledge: []
+    prompts: ops/prompts/devops.md
+    model_hint: default
+    conversation_mode: multi_turn
+
+  ops:monitor:
+    tool_name: call_subagent_ops_monitor
+    description: "调用运维监控，检查服务状态、日志分析、告警处理、性能基线"
+    enabled: true
+    skills: [healthcheck]
+    knowledge: [ops/knowledge/incident-response.md]
+    prompts: ops/prompts/monitor.md
+    model_hint: default
+    conversation_mode: multi_turn
