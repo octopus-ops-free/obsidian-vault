@@ -71,6 +71,16 @@ subagents:
     model_hint: default
     conversation_mode: multi_turn
 
+  video:director:
+    tool_name: call_subagent_video_director
+    description: "调用总设计师，整合剧本/角色/分镜为视觉设计总规板，调用gpt-image-2生成最终设计图"
+    enabled: true
+    skills: [gpt-image-2-chatgpt, nano-banana-pro]
+    knowledge: [video/knowledge/awesome-gpt-image-2-templates.md]
+    prompts: video/prompts/director.md
+    model_hint: default
+    conversation_mode: multi_turn
+
   video:generator:
     tool_name: call_subagent_video_generator
     description: "调用视频生成器，将分镜提示词和角色参考转为最终视频"
