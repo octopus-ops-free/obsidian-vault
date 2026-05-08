@@ -1,0 +1,14 @@
+{
+  "name": "workspace-tools-mcp",
+  "version": "1.0.0",
+  "description": "老马工具箱 MCP Server — 系统监控、工作区管理、Git 辅助、快速笔记",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.25.0"
+  }
+}

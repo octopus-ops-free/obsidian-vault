@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "skills": {
+    "playwright": {
+      "version": "1.0.3",
+      "installedAt": 1777726144727
+    },
+    "self-improving-agent": {
+      "version": "3.0.21",
+      "installedAt": 1777736643519
+    },
+    "claw-find-skills": {
+      "version": "1.0.0",
+      "installedAt": 1777736647675
+    },
+    "skill-creator": {
+      "version": "0.1.0",
+      "installedAt": 1777736777951
+    },
+    "ws-agent-browser": {
+      "version": "1.0.0",
+      "installedAt": 1777736883661
+    },
+    "self-improving-proactive-agent": {
+      "version": "1.0.0",
+      "installedAt": 1777736942948
+    },
+    "feishu-voice-sender": {
+      "version": "1.0.2",
+      "installedAt": 1777737122579
+    },
+    "auto-updater": {
+      "version": "1.0.0",
+      "installedAt": 1777737062493
+    },
+    "find-skills-skill": {
+      "version": "1.0.0",
+      "installedAt": 1778205553085
+    },
+    "ui-ux": {
+      "version": "1.0.0",
+      "installedAt": 1777738571128
+    },
+    "frontend": {
+      "version": "1.0.2",
+      "installedAt": 1777738624515
+    },
+    "agent-team-orchestration": {
+      "version": "1.0.0",
+      "installedAt": 1777738685763
+    },
+    "superpowers": {
+      "version": "1.0.0",
+      "installedAt": 1777738743643
+    },
+    "memory": {
+      "version": "1.0.2",
+      "installedAt": 1778205557394
+    },
+    "word-docx": {
+      "version": "1.0.2",
+      "installedAt": 1777739522264
+    },
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1777739583057
+    },
+    "pollyreach": {
+      "version": "1.0.3",
+      "installedAt": 1777739642178
+    },
+    "obsidian": {
+      "version": "1.0.0",
+      "installedAt": 1778205264892
+    },
+    "humanizer": {
+      "version": "1.0.0",
+      "installedAt": 1777739762420
+    },
+    "nano-banana-pro": {
+      "version": "1.0.1",
+      "installedAt": 1777739882611
+    },
+    "notion": {
+      "version": "1.0.0",
+      "installedAt": 1777740002383
+    },
+    "prismfy-search": {
+      "version": "1.3.4",
+      "installedAt": 1777740122603
+    },
+    "excel-xlsx": {
+      "version": "1.0.2",
+      "installedAt": 1777740302533
+    },
+    "voice-transcription": {
+      "version": "1.0.0",
+      "installedAt": 1777765622439
+    },
+    "gpt-image-2-chatgpt": {
+      "version": "1.0.5",
+      "installedAt": 1777792503214
+    },
+    "xiaomi-mimo-tts": {
+      "version": "1.2.5",
+      "installedAt": 1777796090478
+    },
+    "brainstorming": {
+      "version": "0.1.0",
+      "installedAt": 1777887907562
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1778205260279
+    },
+    "mcp": {
+      "version": "1.0.0",
+      "installedAt": 1778170610409
+    }
+  }
+}
